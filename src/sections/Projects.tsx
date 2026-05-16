@@ -23,7 +23,7 @@ const projects: Project[] = [
   },
   {
     id: 3,
-    name: 'Quantum Health',
+    name: 'PulseCare',
     category: 'Healthcare',
     description: 'Telemedicine platform connecting patients with specialists through secure video consultations.',
     image: '/images/project-3.jpg',

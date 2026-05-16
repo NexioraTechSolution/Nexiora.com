@@ -152,9 +152,10 @@ export default function Contact() {
             {/* Contact Details */}
             <div className="flex flex-col gap-7 mb-14">
               {([
-                { icon: Mail, text: 'hello@nexiora.com' },
-                { icon: Phone, text: '+1 (555) 123-4567' },
-                { icon: MapPin, text: 'San Francisco, CA' },
+                { icon: Mail, text: 'nexioratechsolutions@gmail.com' },
+                { icon: Phone, text: '+91 8139846309' },
+                { icon: Phone, text: '+91 9048881522' },
+                { icon: MapPin, text: 'Kakkanad, Kochi' },
               ]).map(({ icon: Icon, text }, i) => (
                 <div key={i} className="contact-reveal flex items-center gap-4 group">
                   <div 
@@ -171,14 +172,16 @@ export default function Contact() {
             {/* Social Links */}
             <div className="contact-reveal flex gap-3">
               {([
-                { icon: Twitter, label: 'Twitter' },
-                { icon: Linkedin, label: 'LinkedIn' },
-                { icon: Github, label: 'GitHub' },
-                { icon: Instagram, label: 'Instagram' },
-              ]).map(({ icon: Icon, label }) => (
+                { icon: Twitter, label: 'Twitter', url: '#' },
+                { icon: Linkedin, label: 'LinkedIn', url: '#' },
+                { icon: Github, label: 'GitHub', url: '#' },
+                { icon: Instagram, label: 'Instagram', url: 'https://instagram.com/nexioratechsolutions' },
+              ]).map(({ icon: Icon, label, url }) => (
                 <a
                   key={label}
-                  href="#"
+                  href={url}
+                  target="_blank"
+                  rel="noreferrer noopener"
                   aria-label={label}
                   className="w-11 h-11 rounded-xl border flex items-center justify-center transition-all duration-500 hover:border-red-DEFAULT hover:text-red-DEFAULT group"
                   style={{ borderColor: 'rgba(255,255,255,0.06)', color: 'rgba(255,255,255,0.35)' }}

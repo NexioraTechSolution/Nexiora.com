@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { Globe, Smartphone, Palette, Cloud, Brain, Shield } from 'lucide-react';
+import { Globe, Smartphone, Palette, Cloud, Brain, Shield, Megaphone } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
 
 gsap.registerPlugin(ScrollTrigger);
@@ -32,6 +32,12 @@ const services: Service[] = [
       'User-centered design that combines aesthetics with functionality. We create interfaces that are beautiful, intuitive, and conversion-optimized.',
   },
   {
+    icon: Megaphone,
+    title: 'Digital Marketing',
+    description:
+      'Strategic digital marketing campaigns that grow your brand online. SEO, paid ads, social media, and conversion optimization designed to drive results.',
+  },
+  {
     icon: Cloud,
     title: 'Cloud Solutions',
     description:
@@ -42,12 +48,6 @@ const services: Service[] = [
     title: 'AI Integration',
     description:
       'Harness the power of artificial intelligence. From machine learning models to NLP and computer vision, we integrate AI into your products.',
-  },
-  {
-    icon: Shield,
-    title: 'Cybersecurity',
-    description:
-      'Protect your digital assets with our comprehensive security solutions. Penetration testing, audits, and ongoing security monitoring.',
   },
 ];
 

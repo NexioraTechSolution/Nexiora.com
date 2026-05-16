@@ -16,21 +16,21 @@ interface Package {
 const packages: Package[] = [
   {
     name: 'Starter',
-    price: '$999',
+    price: '2999',
     period: '/project',
     featured: false,
     features: [
       'Single-page website',
       'Responsive design',
       'Basic SEO',
-      '2 revision rounds',
+      '1 revision rounds',
       '14-day delivery',
       'Email support',
     ],
   },
   {
     name: 'Professional',
-    price: '$2,999',
+    price: '20,000',
     period: '/project',
     featured: true,
     features: [
@@ -38,7 +38,7 @@ const packages: Package[] = [
       'Custom UI/UX design',
       'Advanced SEO',
       'CMS integration',
-      '5 revision rounds',
+      '3 revision rounds',
       '30-day delivery',
       'Priority support',
       'Performance optimization',

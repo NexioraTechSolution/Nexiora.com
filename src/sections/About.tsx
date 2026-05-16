@@ -145,7 +145,7 @@ export default function About() {
         style={{ background: 'radial-gradient(ellipse at 30% 50%, rgba(229,9,20,0.03) 0%, transparent 50%)' }} 
       />
 
-      <div className="max-w-[1200px] mx-auto px-6 lg:px-12 relative z-10">
+      <div className="max-w-[1400px] mx-auto px-6 lg:px-12 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 lg:gap-28 items-center">
           {/* Left Column - Text */}
           <div>
@@ -184,7 +184,7 @@ export default function About() {
             <div className="about-stats flex flex-wrap gap-16">
               <div className="about-stat">
                 <p className="text-[42px] font-bold tracking-tight" style={{ color: '#e50914' }}>
-                  <AnimatedCounter target={150} suffix="+" />
+                  <AnimatedCounter target={50} suffix="+" />
                 </p>
                 <p className="font-label mt-2" style={{ color: 'rgba(255,255,255,0.3)' }}>
                   PROJECTS DELIVERED
@@ -192,7 +192,7 @@ export default function About() {
               </div>
               <div className="about-stat">
                 <p className="text-[42px] font-bold tracking-tight" style={{ color: '#e50914' }}>
-                  <AnimatedCounter target={50} suffix="+" />
+                  <AnimatedCounter target={10} suffix="+" />
                 </p>
                 <p className="font-label mt-2" style={{ color: 'rgba(255,255,255,0.3)' }}>
                   TEAM MEMBERS
