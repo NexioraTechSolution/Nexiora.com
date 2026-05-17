@@ -1,6 +1,6 @@
 import { useEffect, useState, useCallback, useRef } from 'react';
 import { Menu, X } from 'lucide-react';
-import Lenis from '@studio-freight/lenis';
+import Lenis from 'lenis';
 
 interface NavigationProps {
   lenisRef: React.RefObject<Lenis | null>;
